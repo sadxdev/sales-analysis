@@ -1,5 +1,5 @@
 using Microsoft.Extensions.Hosting;
-
+using SalesAnalysis.BackgroundJobs;
 namespace SalesAnalysis.Services
 {
     public class DataRefreshBackgroundService : BackgroundService
