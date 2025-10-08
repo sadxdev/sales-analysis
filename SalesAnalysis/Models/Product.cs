@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using SalesAnalysis.Data;
 
 namespace SalesAnalysis.Models
 {
