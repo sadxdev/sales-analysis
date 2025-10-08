@@ -2,6 +2,7 @@ namespace SalesAnalysis.Services
 {
     public interface ICsvLoaderService
     {
-        Task LoadCsvAsync(string filePath);
+        public Task<LoadResult> LoadCsvFileAsync(string filePath, CancellationToken ct = default);
     }
 }
+
