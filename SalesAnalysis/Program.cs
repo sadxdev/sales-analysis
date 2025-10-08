@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using SalesAnalytics.Data;
-using SalesAnalytics.Services;
+using SalesAnalysis.BackgroundJobs;
+using SalesAnalysis.Data;
+using SalesAnalysis.Services;
 using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);

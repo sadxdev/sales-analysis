@@ -1,16 +1,11 @@
 using CsvHelper;
 using CsvHelper.Configuration;
 using Microsoft.EntityFrameworkCore;
-using SalesAnalytics.Data;
+using SalesAnalysis.Data;
 using System.Globalization;
 
 namespace SalesAnalytics.Services
 {
-    public interface ICsvLoaderService
-    {
-        Task<LoadResult> LoadCsvFileAsync(string filePath, CancellationToken ct = default);
-    }
-
     public class LoadResult
     {
         public bool Success { get; set; }
