@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-
+using SalesAnalysis.BackgroundJobs;
+using SalesAnalysis.Services;
 namespace SalesAnalysis.Controllers
 {
     [ApiController]
